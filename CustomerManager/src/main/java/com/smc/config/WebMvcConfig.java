@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
-@ComponentScan("com.smc.controller")
+@ComponentScan("com.smc")
 public class WebMvcConfig {
 
     @Bean("viewResolver")
